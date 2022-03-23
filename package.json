@@ -2,6 +2,7 @@
   "name": "gavisto",
   "version": "0.1.0",
   "private": true,
+  "cacheDirectories": [".next/cache"],
   "scripts": {
     "start": "next dev",
     "build": "next build",
