@@ -1,11 +1,12 @@
 import React from "react";
+import getImagePath from "../js/get-patch-image";
 import styles from "../styles/Home.module.scss";
 
 export const Home = () => {
   return (
     <div>
       <div className={styles.banner} id="home">
-        <h1>GAVISTORE</h1>
+        <img src={getImagePath("gavisto-logo.png")} alt="" />
         <p>
           _Lorem ipsum <br /> Lorem ipsum dolor sit amet.
         </p>
@@ -74,7 +75,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className={styles.comment} id="callab">
+      <div className={styles.comment} id="collab">
         <hr />
         <div className={styles.content}>
           <h2>{`''`}</h2>

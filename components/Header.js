@@ -6,7 +6,7 @@ export const Header = () => {
         <div>
             <div className={styles.menu}>
                 <a href='#libarts'>Libarts</a>
-                <a href='#callab'>Callab</a>
+                <a href='#collab'>Collab</a>
                 <a href='#home'>Home</a>
                 <a href='#blog'>Blog</a>
                 <a href='#aboutus'>About us</a>
